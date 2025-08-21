@@ -1,0 +1,12 @@
+# 忽略Visual Studio编译生成的所有文件
+[Dd]ebug/
+[Rr]elease/
+x64/
+*.user
+*.aps
+*.pdb
+*.obj
+*.tlog
+
+# 忽略可执行文件
+*.exe
