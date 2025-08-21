@@ -1,0 +1,3 @@
+﻿  main.cpp
+D:\develop\airplane\airplane\main.cpp(544,15): warning C4002: 类函数宏的调用“RGB”参数过多
+  airplane.vcxproj -> D:\develop\airplane\x64\Debug\airplane.exe
