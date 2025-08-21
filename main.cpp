@@ -1,4 +1,5 @@
-﻿#include<iostream>
+//感谢 EasyX 图形库提供的便捷绘图接口，以及各类开源资源网站提供的游戏素材。欢迎提交 issues 或 PR 帮助改进这个项目！ 
+#include<iostream>
 #include<graphics.h>
 #include<vector>
 #include<easyx.h>
@@ -593,10 +594,10 @@ void Play()
 	Audio& sound = Audio::getInstance();
 
 	//加载音效
-	sound.loadAudio("background", "D:\\全民飞机大战 (661)_爱给网_aigei_com.mp3");
-	sound.loadAudio("bullet", "D:\\制片帮素材_153150_子弹飞行.mp3");
-	sound.loadAudio("explosion", "D:\\制片帮素材_257496_爆炸.mp3");
-	sound.loadAudio("gameover", "D:\\制片帮素材_386160_综艺+失败结束01.wav");
+	sound.loadAudio("background", "your filepath");
+	sound.loadAudio("bullet", "your filepath");
+	sound.loadAudio("explosion", "ypur filepath");
+	sound.loadAudio("gameover", "your filepath");
 
 	//设置音量
 	sound.setVolume("background", 30);
